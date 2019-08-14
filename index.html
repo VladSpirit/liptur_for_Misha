@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<link rel="stylesheet" href="js/bxslider-4-4.2.12/dist/jquery.bxslider.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bxslider-4-4.2.12/dist/jquery.bxslider.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		$(document).ready(function(){
+			$('.slider').bxSlider({
+				controls: false
+
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function(){
+			$('.slider2').bxSlider({
+				minSlides: 7,
+				maxSlides: 11,
+				slideWidth: 600,
+				pager: ($(".bxslider2>.wrap").length > 1) ? true: false,
+
+			});
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<section class="heading container">
+			<h1>Путеводная звезда - 2019</h1>
+			<img src="img/logo1.png" alt="">
+			<img src="img/logo2.png" alt="">
+			<img src="img/logo3.png" alt="">
+		</section>
+		<section class="navigation container">
+			<nav>
+				<ul>
+					<li><a href="voiting.html">Голосование</a></li>
+					<li><a href="news.html">Новости</a></li>
+					<li><a href="contact_us.html">Контакты</a></li>
+					<li><a href="#">Результаты конкурса</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+
+	<section class="promo">
+		<div class="slider_header">
+			<div class="slider">
+				<div><img src="img/slider1.png" alt="#"></div>
+				<div><img src="img/slider2.png" alt="#"></div>
+				<div><img src="img/slider3.png" alt="#"></div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="header_block">
+				<h2>Проморолики конкурса</h2>
+			</div>
+			<div class="promo_video">
+				<div class="item_main_video">
+					<iframe width="786" height="514" src="https://www.youtube.com/embed/Qm4VMxCjds0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="item_video">
+					<div class="item_video1">
+						<iframe width="344" height="225" src="https://www.youtube.com/embed/Qm4VMxCjds0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="item_video1">
+						<iframe width="344" height="225" src="https://www.youtube.com/embed/Qm4VMxCjds0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="juri container">
+		<div class="header_block">
+			<h2>Жюри конкурса</h2>
+		</div>
+		<div class="juri_list">
+			<article class="jury_item">
+				<img src="img/juri.png" alt="juri">
+				<p class="name_juri">Ванесса Игнатьевна</p>
+				<p class="des_juri">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</article>
+			<article class="jury_item">
+				<img src="img/juri.png" alt="juri">
+				<p class="name_juri">Ванесса Игнатьевна</p>
+				<p class="des_juri">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</article>
+			<article class="jury_item">
+				<img src="img/juri.png" alt="juri">
+				<p class="name_juri">Ванесса Игнатьевна</p>
+				<p class="des_juri">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</article>
+		</div>
+	</section>
+
+	<section class="news_section">
+		<div class="container">
+			<div class="header_block">
+				<h2>Новости</h2>
+			</div>
+			<div class="news_block">
+				<div class="main_news">
+					<article class="news_item main_news_block">
+						<img src="img/news_photo.png" alt="news">
+						<h3 class="header_main_news">Lorem ipsum</h3>
+						<p class="des_main_news">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+						<a class="main_more_news" href="">Подробнее</a>
+					</article>
+				</div>
+				<div class="other_news">
+					<article class="news_item">
+						<img src="img/news_photo.png" alt="news">
+						<h3 class="header_other_news">Lorem ipsum</h3>
+						<p class="des_other_news">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+						<a class="other_more_news" href="">Подробнее</a>
+					</article>
+					<article class="news_item">
+						<img src="img/news_photo.png" alt="news">
+						<h3 class="header_other_news">Lorem ipsum</h3>
+						<p class="des_other_news">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+						<a class="other_more_news" href="">Подробнее</a>
+					</article>
+				</div>
+			</div>
+			<button class="all_news_btn">Все новости</button>
+
+
+
+
+		</div>
+
+
+	</section>
+	<section class="make_vote">
+		<a class="vote" href="voiting.html"><p class="title_vote">Голосовать</p></a>
+	</section>
+	<hr>
+	<section class="container partners">
+		<div class="slider2">
+			<div><img src="img/partners/1.png" alt=""></div>
+			<div><img src="img/partners/2.png" alt=""></div>
+			<div><img src="img/partners/3.png" alt=""></div>
+			<div><img src="img/partners/4.png" alt=""></div>
+			<div><img src="img/partners/5.png" alt=""></div>
+			<div><img src="img/partners/6.png" alt=""></div>
+			<div><img src="img/partners/7.png" alt=""></div>
+			<div><img src="img/partners/8.png" alt=""></div>
+			<div><img src="img/partners/9.png" alt=""></div>
+			<div><img src="img/partners/10.png" alt=""></div>
+			<div><img src="img/partners/11.png" alt=""></div>
+		</div>
+
+	</section>
+
+	<footer>
+		<div class="container cont_inf">
+			<div class="address">
+				<p class="cont_header footer_text">Областной центр событийного туризма</p>
+				<img class="cont_img" src="img/map.svg" alt="map">
+				<p class="cont_data footer_text">398024, г. Липецк,<br>пр-т Победы, 67а</p>
+			</div>
+			<div class="phone">
+				<p class="cont_header">Телефон</p>
+				<img class="cont_img" src="img/phone.svg" alt="map">
+				<p class="cont_data">8-800-200-81-20</p>
+			</div>
+			<div class="mail">
+				<p class="cont_header">Почта</p>
+				<img class="cont_img" src="img/email.svg" alt="map">
+				<p class="cont_data">info@liptur.ru</p>
+			</div>
+			<div class="soc">
+				<ul>
+					<a href=""><li><img src="img/insta_red.svg" alt=""></li></a>
+					<a href=""><li><img src="img/vk_red.svg" alt=""></li></a>
+					<a href=""><li><img src="img/ok_red.svg" alt=""></li></a>
+					<a href=""><li><img src="img/fb_red.svg" alt=""></li></a>
+					<a href=""><li><img src="img/Youtube_red.svg" alt=""></li></a>
+					<a href=""><li><img src="img/twi_red.svg" alt=""></li></a>
+					<a href=""><li><img src="img/hz_red.svg" alt=""></li></a>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<p><span>© </span> 2016 - 2018 ОКУ “Центр кластерного развития туризма Липецкой области”</p>
+			</div>
+
+		</div>
+	</footer>
+
+</body>
+</html>
